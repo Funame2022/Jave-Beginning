@@ -17,6 +17,7 @@ public class Ex_dieu_kien_tonghop {
 		switch (choose) {
 
 		case 1:
+			System.out.println(">> GIAI PHUONG TRINH BAC NHAT<<");
 			System.out.printf("Nhap so a: ");
 			int soA = scanner.nextInt();
 			System.out.printf("Nhap so b: ");
@@ -33,6 +34,7 @@ public class Ex_dieu_kien_tonghop {
 			break;
 
 		case 2:
+			System.out.println(">> GIAI PHUONG TRINH BAC HAI<<");
 			System.out.println("Nhập số A: ");
 			int a = scanner.nextInt();
 			System.out.println("Nhập số B: ");
@@ -40,7 +42,7 @@ public class Ex_dieu_kien_tonghop {
 			System.out.println("Nhập số C: ");
 			int c = scanner.nextInt();
 			if (a == 0) {
-				System.out.println("Ap dung tinh phuon trinh bac nhat");
+				System.out.println("Ap dung tinh phuong trinh bac nhat");
 				if (b == 0 && c == 0) {
 					System.out.println("Phuong trinh vo so nghiem");
 				} else if (b == 0 && c != 0) {
@@ -69,6 +71,7 @@ public class Ex_dieu_kien_tonghop {
 			break;
 
 		case 3:
+			System.out.println("TINH TIEN DIEN THEO HAN MUC");
 			System.out.println("Nhap so tien dien: ");
 			int soDien = scanner.nextInt();
 			if (soDien > 0 && soDien <= 100) {
